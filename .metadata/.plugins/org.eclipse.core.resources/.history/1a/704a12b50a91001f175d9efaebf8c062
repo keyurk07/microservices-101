@@ -1,0 +1,10 @@
+spring:
+ application:
+  name : cloudGateway
+
+  cloud:
+   gateway:
+    routes:
+     - id: collegeMarksSystem-route
+       uri: http://localhost:6070
+       predicates: /results/*

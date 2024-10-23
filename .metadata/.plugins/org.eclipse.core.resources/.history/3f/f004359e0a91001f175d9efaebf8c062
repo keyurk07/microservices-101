@@ -1,0 +1,10 @@
+spring:
+ application:
+  name : cloudGateway
+
+  cloud:
+   gateway:
+    routes:
+     - id: 
+       uri:
+       predicates:

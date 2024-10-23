@@ -1,0 +1,9 @@
+package com.example.marksSystem.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.marksSystem.entities.Marks;
+
+public interface MarksRepository extends JpaRepository<Marks, Long> {
+
+}

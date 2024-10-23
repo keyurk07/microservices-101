@@ -1,0 +1,5 @@
+package com.example.marksSystem.entities;
+
+public class Marks {
+
+}

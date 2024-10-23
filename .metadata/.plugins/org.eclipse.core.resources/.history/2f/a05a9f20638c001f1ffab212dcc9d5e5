@@ -1,0 +1,4 @@
+spring.application.name=collegeMarksSystem
+
+
+server.port=6000

@@ -1,0 +1,5 @@
+package com.example.marksSystem.repository;
+
+public interface MarksRepository {
+
+}

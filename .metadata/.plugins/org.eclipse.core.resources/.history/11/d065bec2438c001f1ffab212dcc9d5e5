@@ -1,0 +1,8 @@
+package com.example.marksSystem.entities;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class student {
+
+}

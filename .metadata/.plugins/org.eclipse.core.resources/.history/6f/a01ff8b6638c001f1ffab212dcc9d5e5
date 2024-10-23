@@ -1,0 +1,28 @@
+
+ package com.example.marksSystem.entities;
+  
+  import java.util.List;
+  
+  import jakarta.persistence.Entity;
+  import jakarta.persistence.Id; 
+  import jakarta.persistence.ManyToOne; 
+  import jakarta.persistence.OneToMany; 
+  import lombok.AllArgsConstructor; 
+  import lombok.Data; 
+  import lombok.NoArgsConstructor;
+  
+  @Entity
+  
+  @Data
+  
+  @NoArgsConstructor
+  
+  @AllArgsConstructor public class Student {
+  
+  @Id private int sid; private String studentName;
+  
+  @OneToMany(mappedBy = "student") private List<Marks> marks;
+  
+  
+  }
+ 
